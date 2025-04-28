@@ -6,16 +6,16 @@
 
 <body>
     <article>
-        <h1> <a href="/post">My first Post </a></h1>
+        <h1> <a href="/posts/my-first-post">My first Post </a></h1>
         <p>Welcome to my blog! Ichab auidbnsuq wbn uawdbn asubnwquoiei bnasuodbnqwuore bnauodbasuoebqu osabduoabduasodb uqowbd asiodbqwuowdbauso dbuoebauodbasuo dbquoobadsudbqwuowabsduoi asdbqwuowdba uodasbuoqwbduo</p>
 </article>
         <article>
-        <h1> <a href="/post">My first Post </a></h1>
+        <h1> <a href="/posts/my-second-post">My first Post </a></h1>
         <p>Welcome to my blog! Ichab auidbnsuq wbn uawdbn asubnwquoiei bnasuodbnqwuore bnauodbasuoebqu osabduoabduasodb uqowbd asiodbqwuowdbauso dbuoebauodbasuo dbquoobadsudbqwuowabsduoi asdbqwuowdba uodasbuoqwbduo</p>
         </article>
 
         <article>
-        <h1> <a href="/post">My first Post </a></h1>
+        <h1> <a href="/posts/my-third-post">My first Post </a></h1>
         <p>Welcome to my blog! Ichab auidbnsuq wbn uawdbn asubnwquoiei bnasuodbnqwuore bnauodbasuoebqu osabduoabduasodb uqowbd asiodbqwuowdbauso dbuoebauodbasuo dbquoobadsudbqwuowabsduoi asdbqwuowdba uodasbuoqwbduo</p>
         </article>
 
