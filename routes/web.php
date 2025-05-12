@@ -5,26 +5,32 @@ use Illuminate\Support\Facades\Route;
 use App\Models\Post;
 
 Route::get('/', function () {
-    return view('posts', [
-        'posts' => Post::all()
-    ]);
+  //$posts = Post::all();
+  //if (is_null($posts)) {
+    //Log::error('Posts is null!');
+    //abort(400, 'Posts not found'); 
+//}
+
+ 
+
+  //  return view('posts', [
+    //    'posts' => $posts
+    //]);
+   // return view('posts', [
+     //   'posts' => Post::all()
+    //]);
+
+    $document = YamlFrontMatter::parseFile(resource_path('posts/my-fourth-post.html'));
 });
 
-Route::get('post/{post}', function ($slug) {
+Route::get('posts/{post}', function ($slug) {
     
-//if (!file_exists($path = __DIR__ . "/../resources/posts/{$slug}.html")) {
-//return redirect('/');
- //   }
+//$post = Post::find($slug);
 
- //  $post = cache()->remember("posts.{$slug}", 1200, fn()=> file_get_contents($path));
-    
-  //  return view('post', [
-    //    'post' => $post
- //   ]
-  //  );
-$post = Post::find($slug);
-
-  return view ('post', [
-        'post' => $post 
-  ]);
+  //return view ('post', [
+  //      'post' => $post 
+ // ]);
+ return view ('post', [
+        'post' => Post::find($slug)
+    ]);
 })->where('post', '[A-z_\-]+');
